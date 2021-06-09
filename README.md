@@ -44,7 +44,7 @@ For Database Architecture
 
 **Result On Android**
 ---
-For building this chat app, we used Kotlin for base Language to building Android App. This is the example of SABA UI, Main Home and Chat Asisten
+For building this chat app, we used Kotlin for base Language to building Android App. This is the example of SABA UI, Main Home and Chat Asissten
 
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Android%20Apps/Picture/11.%20chat%20assisten.jpeg)
 
