@@ -35,6 +35,6 @@ For Cloud Architecture
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/cloud-architecture.jpg)
 
 For Database Architecture
-![image text]https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/dbfirestore-architecture.jpg)
+![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/dbfirestore-architecture.jpg)
 
 **Result On Android**
