@@ -21,9 +21,7 @@ For the code, we referred to [A ten-minute introduction to sequence-to-sequence 
 - Train using Google Colab
 
 
-
 **Model Over View**
----
 For Encode the input text
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Machine%20Learning/Picture/Encode.png)
 
@@ -31,11 +29,12 @@ For Decode the input text
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Machine%20Learning/Picture/Decode.png)
 
 
-
 **Cloud Architecture**
----
 
-For cloud architecture we use cloud functions as an API between android via firestore database to ML model
+For cloud architecture we use cloud functions as an API between android via firestore database to ML model.
+The first cloud function we use firestore trigger oncreate. So everytime user send a messages it will be automatically create new document that stored their messages and cloud function will read that messages to process it into ML model and save the result into new document that will be read by android to display the reply for user messages.
+
+The second cloud function we use firestore trigger oncreate again. This cloud function will work everytime user create and account and cloud function will be run our code to make new collection and new document that will be stored notepad, todo and chatbot data.
 
 For Cloud Architecture
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/cloud-architecture.jpg)
@@ -43,6 +42,4 @@ For Cloud Architecture
 For Database Architecture
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/dbfirestore-architecture.jpg)
 
-
 **Result On Android**
----
