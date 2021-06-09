@@ -32,6 +32,7 @@ For Decode the input text
 **Cloud Architecture**
 
 For cloud architecture we use cloud functions as an API between android via firestore database to ML model.
+
 The first cloud function we use firestore trigger oncreate. So everytime user send a messages it will be automatically create new document that stored their messages and cloud function will read that messages to process it into ML model and save the result into new document that will be read by android to display the reply for user messages.
 
 The second cloud function we use firestore trigger oncreate again. This cloud function will work everytime user create and account and cloud function will be run our code to make new collection and new document that will be stored notepad, todo and chatbot data.
