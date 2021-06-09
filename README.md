@@ -31,6 +31,7 @@ For Decode the input text
 
 **Cloud Architecture**
 For cloud architecture we use cloud functions as an API between android via firestore database to ML model
+
 For Cloud Architecture
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/cloud-architecture.jpg)
 
