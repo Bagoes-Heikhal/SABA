@@ -21,7 +21,9 @@ For the code, we referred to [A ten-minute introduction to sequence-to-sequence 
 - Train using Google Colab
 
 
+
 **Model Over View**
+---
 For Encode the input text
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Machine%20Learning/Picture/Encode.png)
 
@@ -29,7 +31,9 @@ For Decode the input text
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Machine%20Learning/Picture/Decode.png)
 
 
+
 **Cloud Architecture**
+---
 
 For cloud architecture we use cloud functions as an API between android via firestore database to ML model
 
@@ -39,4 +43,6 @@ For Cloud Architecture
 For Database Architecture
 ![image text](https://github.com/Bagoes-Heikhal/SABA/blob/Master/Cloud/Picture/dbfirestore-architecture.jpg)
 
+
 **Result On Android**
+---
