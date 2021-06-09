@@ -44,3 +44,4 @@ For Database Architecture
 
 **Result On Android**
 ---
+For building this chat app, we used Kotlin for base Language to building Android App. 
